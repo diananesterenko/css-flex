@@ -105,16 +105,14 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.section4-1 {
-  width: 50%;
-  min-width: 400px;
-  background-color: #2690d4;
-  padding: 30px 0;
-}
+.section4-1,
 .section4-2 {
   width: 50%;
   min-width: 400px;
   padding: 30px 0;
+}
+.section4-1 {
+  background-color: #2690d4;
 }
 .footer {
   background-color: black;
