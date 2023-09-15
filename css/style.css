@@ -10,7 +10,7 @@ body {
   font-size: 1.1em;
   text-align: center;
 }
-header {
+.header {
   background-image: url(../images/depositphotos_147115603-stock-photo-script-code-on-monitor.webp);
   background-color: var(__color-grey);
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ header {
   border: var(--color-white) 0.1px solid;
   margin-top: auto;
 }
-#section1 {
+.section1 {
   display: inline-block;
   background-color: var(--color-white);
   color: var(--color-grey);
@@ -56,10 +56,10 @@ header {
   margin: 0 auto;
   padding: 15px 20px 40px 20px;
 }
-#section1 .wrap {
+.section1 .wrap {
   margin: 0 auto;
 }
-#section2 {
+.section2 {
   max-width: 900px;
   margin: 0 auto;
 }
@@ -76,31 +76,31 @@ header {
   background-color: var(--color-white);
   color: var(--color-grey);
 }
-#section2 img {
+.section2-img {
   width: 100%;
 }
 .colmn-text {
   padding: 5px 35px;
 }
-#section3 {
+.section3 {
   background-color: var(--color-white);
   color: var(--color-grey);
 }
-#section3 .wrap {
+.section3 .wrap {
   max-width: 850px;
   margin: 0 auto;
 }
-#section3 p {
+.section3-text {
   padding: 0px 20px 50px 20px;
 }
-#section3 .title {
+.section3 .title {
   padding: 40px 0px 20px 0px;
 }
 
-#section4 p {
+.section4-text {
   padding: 20px 35px;
 }
-#section4 {
+.section4 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -116,15 +116,15 @@ header {
   min-width: 400px;
   padding: 30px 0;
 }
-footer {
+.footer {
   background-color: black;
   display: flex;
 }
-footer div {
+.footer div {
   width: 50%;
   padding: 30px 0px;
 }
-footer a {
+.footer .link {
   text-decoration: none;
   color: #2690d4;
 }
